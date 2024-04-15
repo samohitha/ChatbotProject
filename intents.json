@@ -1,0 +1,182 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you", 
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hiya!",
+        "Greetings!",
+        "Howdy!",
+        "Nice to see you!",
+        "Hey, what's up?",
+        "Yo!",
+        "Hi! How's it going?",
+        "Hey there, nice to meet you!",
+        "Well, hello there!",
+        "Hey! Welcome!",
+        "Hi, how are things?"
+      ]
+    }
+,    
+{
+  "tag": "goodbye",
+  "patterns": ["Bye", "See you later", "Goodbye"],
+  "responses": [
+    "Goodbye! Take care.",
+    "See you later! Have a great day.",
+    "Bye! Come back again soon.",
+    "Farewell! Thanks for visiting.",
+    "Until next time! Have a wonderful day.",
+    "Bye for now! Stay safe.",
+    "Take it easy! See you soon.",
+    "Adios! It was nice chatting with you.",
+    "Catch you later! Thanks for stopping by.",
+    "Bye-bye! Don't be a stranger.",
+    "See you next time! Have a fantastic day.",
+    "So long! It was a pleasure helping you.",
+    "Take care! See you again soon.",
+    "Later, gator!",
+    "Goodbye! It's been great chatting with you."
+  ]
+},
+
+{
+  "tag": "thanks",
+  "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+  "responses": [
+    "You're welcome! Happy to assist.",
+    "No problem! Glad I could help.",
+    "Anytime! Let me know if you need anything else.",
+    "You got it! Let me know if there's anything else you need.",
+    "Don't mention it! It's my pleasure to help.",
+    "Glad I could be of assistance!",
+    "You're welcome! Always here to help.",
+    "No worries! That's what I'm here for.",
+    "My pleasure! Let me know if you have any other questions.",
+    "No problem! It's what I'm here for.",
+    "Happy to help! Let me know if there's anything else you need.",
+    "You're welcome! Feel free to ask if you need anything else.",
+    "No trouble at all! Let me know if there's anything else I can do.",
+    "Sure thing! Let me know if there's anything else I can assist with.",
+    "Glad to be of service! Don't hesitate to ask if you need more help."
+  ]
+}
+,
+{
+  "tag": "items",
+  "patterns": [
+    "Which items do you have?",
+    "What kinds of items are there?",
+    "What do you sell?"
+  ],
+  "responses": [
+    "We sell coffee, tea, and a variety of snacks.",
+    "Our store offers a selection of coffee, tea, and accessories.",
+    "We have coffee beans, tea leaves, mugs, and more.",
+    "Our inventory includes coffee, tea, and related accessories.",
+    "We stock a range of items, including coffee, tea, and snacks.",
+    "Our products include a wide selection of coffee, tea, and treats.",
+    "You'll find coffee, tea, and more in our store!",
+    "Our shelves are filled with coffee, tea, and other delights.",
+    "We carry a diverse range of products, from coffee to tea to snacks.",
+    "Our offerings include coffee, tea, and various other goodies.",
+    "We've got everything from coffee to tea to snacks and more!",
+    "Explore our selection of coffee, tea, and treats!",
+    "Discover a world of coffee, tea, and delicious snacks at our store.",
+    "Find your favorite coffee, tea, and snacks here!",
+    "Coffee, tea, snacks, and more await you in our store!"
+  ]
+}
+,
+{
+  "tag": "payments",
+  "patterns": [
+    "Do you take credit cards?",
+    "Do you accept Mastercard?",
+    "Can I pay with Paypal?",
+    "Are you cash only?"
+  ],
+  "responses": [
+    "Yes, we accept VISA, Mastercard, and Paypal.",
+    "We accept most major credit cards, including Mastercard and VISA.",
+    "You can pay with credit cards, Paypal, or cash.",
+    "We accept credit cards, Paypal, and cash payments.",
+    "You can use credit cards, Paypal, or cash for payment.",
+    "We accept all major credit cards, including Mastercard and VISA.",
+    "Payment options include credit cards, Paypal, and cash.",
+    "Credit cards, Paypal, and cash are all accepted.",
+    "You're welcome to pay with credit cards, Paypal, or cash.",
+    "We support payments via credit cards, Paypal, and cash.",
+    "You have the choice of paying with credit cards, Paypal, or cash.",
+    "We welcome payments made with credit cards, Paypal, or cash.",
+    "Paypal, credit cards, and cash are all accepted payment methods.",
+    "You can pay using credit cards, Paypal, or cash.",
+    "We accept credit cards, Paypal, and cash as payment methods."
+  ]
+}
+,
+{
+  "tag": "delivery",
+  "patterns": [
+    "How long does delivery take?",
+    "How long does shipping take?",
+    "When do I get my delivery?"
+  ],
+  "responses": [
+    "Delivery typically takes 2-4 business days.",
+    "Shipping usually takes 2-4 days from the date of order.",
+    "You can expect your delivery within 2-4 business days.",
+    "Our standard delivery timeframe is 2-4 business days.",
+    "Delivery times vary but usually fall within 2-4 business days.",
+    "Your order should arrive within 2-4 business days.",
+    "We aim to deliver your order within 2-4 business days.",
+    "Shipping times typically range from 2-4 business days.",
+    "Your delivery should be with you within 2-4 business days.",
+    "Most deliveries are completed within 2-4 business days.",
+    "We strive to deliver your order within 2-4 business days.",
+    "Typically, deliveries arrive within 2-4 business days.",
+    "Our delivery service usually takes 2-4 business days.",
+    "You can usually expect delivery within 2-4 business days.",
+    "Delivery is usually completed within 2-4 business days."
+  ]
+}
+,
+{
+  "tag": "funny",
+  "patterns": [
+    "Tell me a joke!",
+    "Tell me something funny!",
+    "Do you know a joke?"
+  ],
+  "responses": [
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "I'm reading a book on anti-gravity. It's impossible to put down!",
+    "What did the ocean say to the beach? Nothing, it just waved!",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "Why did the bicycle fall over? Because it was two-tired!",
+    "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them!",
+    "What do you get when you cross a snowman with a vampire? Frostbite!",
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "How does a penguin build its house? Igloos it together!",
+    "Why don't skeletons fight each other? They don't have the guts!",
+    "What did one hat say to the other? You stay here, I'll go on ahead!",
+    "What do you call fake spaghetti? An impasta!",
+    "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+    "What do you call cheese that isn't yours? Nacho cheese!",
+    "How does a penguin make pancakes? With its flippers!"
+  ]
+}
+
+  ]
+}
